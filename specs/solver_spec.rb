@@ -6,7 +6,7 @@ RSpec.describe 'Solver class' do
     @solver = Solver.new
   end
 
-  describe 'Solver factorial method' do 
+  describe 'Solver factorial method' do
     it 'computes the factorial of 0' do
       expect(@solver.factorial(0)).to eq 1
     end
@@ -21,9 +21,9 @@ RSpec.describe 'Solver class' do
     end
   end
 
-  describe 'Solver reverse string method' do 
+  describe 'Solver reverse string method' do
     it 'takes hello and returns olleh' do
-      expect(@solver.reverse("hello")).to eq("olleh")
+      expect(@solver.reverse('hello')).to eq('olleh')
     end
   end
 
@@ -38,6 +38,4 @@ RSpec.describe 'Solver class' do
       expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
   end
-
 end
-  
