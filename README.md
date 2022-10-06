@@ -28,7 +28,7 @@ https://www.ruby-lang.org/en/documentation/installation/
 ### Clone this repository
 
 ```bash
-git clone https://github.com/ogagaoghene/TDD_Project.git
+git clone https://github.com/OyePriscilla/TDD_Project.git
 ```
 ### Move into the directory with
 
