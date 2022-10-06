@@ -28,14 +28,14 @@ RSpec.describe 'Solver class' do
   end
 
   describe 'Solver fizzbuzz method' do
-    it 'Returns fizzbuzz if the number is divisible by 3 and 5' do
-      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
-    end
     it 'returns fizz if the number is divisible by 3' do
       expect(@solver.fizzbuzz(3)).to eq('fizz')
     end
     it 'returns buzz if the number is divisible by 5' do
       expect(@solver.fizzbuzz(5)).to eq('buzz')
+    end
+    it 'Returns fizzbuzz if the number is divisible by 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
   end
 
