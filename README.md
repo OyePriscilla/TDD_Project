@@ -33,9 +33,8 @@ git clone https://github.com/ogagaoghene/TDD_Project.git
 ### Move into the directory with
 
 ```bash
-cd oop_school_library_ruby
+cd TDD_Project
 ```
-
 ### Install linter
 
 ```bash
