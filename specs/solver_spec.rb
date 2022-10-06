@@ -17,4 +17,7 @@ describe 'Factorial' do
   it 'raises exception for negative integer' do
     expect { @solver.factorial(-1) }.to raise_error('You cannot calculate factorial of a negative number')
   end
+  it 'takes hello and returns olleh' do
+    expect { @solver.reverse(hello) }.to eq('olleh')
+  end
 end
